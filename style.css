@@ -1,0 +1,65 @@
+/* Mengatur latar belakang dan warna umum */
+body {
+    background-color: #8b9197;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    margin-bottom: 30px;
+}
+
+/* Hero Section */
+.jumbotron {
+    background-color: #007bff;
+    padding: 80px 0;
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+}
+
+.jumbotron p {
+    font-size: 1.25rem;
+}
+
+/* Card Styling */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.card-body {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+}
+
+/* Feedback Message */
+#form-feedback .alert {
+    font-size: 1.25rem;
+}
+
+/* Mengatur gambar di dalam card */
+.card-img-top {
+    width: 100%;       /* Membuat gambar memenuhi lebar card */
+    height: 200px;     /* Menetapkan tinggi gambar */
+    object-fit: cover; /* Menjaga proporsi gambar tetap utuh dan mengisi ruang */
+}
+
+/* Menambahkan margin bawah untuk setiap card */
+.card {
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    display: none; /* Pastikan tidak ada aturan seperti ini */
+}
